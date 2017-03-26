@@ -37,6 +37,41 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+.middleTitle{
+  text-align: center;
+  font-family: 'Abel';
+  font-size: 3em;
+  color: black;
+  margin:30px;
+  border-top:solid 1px black;
+  border-bottom:solid 1px black;
+}
+
+.imagebox{
+  margin:50px;
+  border: dashed 2px black;
+  position: relative;
+  text-align: center;
+  float: none;
+  word-wrap: break-word;
+}
+.fontbox{
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: block
+}
+
+.fontbox ul{
+  width:40%;
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+.imagebox img{
+  width:70%;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -156,14 +191,24 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
+  background-color: #FF0000;
   text-align: center;
   color: white;
+}
+.power{
+  width:100%;
+  text-align: center;
+  padding: 100px 50px 100px 50px;
+  background-color: #555555;
+  color:white;
+  font-size: 5em;
 }
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+  background-color: #FF0000;
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
